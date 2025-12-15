@@ -50,10 +50,10 @@ cambiar el tamaño de los arreglos al registrar más estudiantes o cursos.
 
 ## Ejemplos de ejecución
 ### Registro de estudiante
-![Registro de estudiante](cap 1.png)
+![Registro de estudiante](cap1.png)
 
 ### Inscripción de estudiante en curso
-![Incripción de estudiante](cap 2.png)
+![Incripción de estudiante](cap2.png)
 
 
 
