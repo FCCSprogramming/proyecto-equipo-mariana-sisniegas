@@ -98,7 +98,7 @@ void Sistema::exportarAprobados(const string& archivo) {
     ofstream out(archivo);
 
     for (int i = 0; i < cantEst; i++) {
-        if (estudiantes[i].calcularDesempeno() >= 11)
+        if (estudiantes[i].calcularDesempeno() >= 10)
             out << estudiantes[i].obtenerId() << " "
                 << estudiantes[i].obtenerNombre() << "\n";
     }
