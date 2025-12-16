@@ -15,8 +15,7 @@ Sistema::Sistema() {
 }
 
 //registra un nuevo estudiante
-void Sistema::registrarEstudiante(const string& id, const string& nombre,
-                                  const string& carrera, int ciclo) {
+void Sistema::registrarEstudiante(const string& id, const string& nombre, const string& carrera, int ciclo) {
     if (cantEst == capEst) {
         capEst *= 2;
         auto nuevo = make_unique<Estudiante[]>(capEst);
@@ -32,8 +31,7 @@ void Sistema::registrarEstudiante(const string& id, const string& nombre,
 }
 
 // registra un nuevo curso
-void Sistema::registrarCurso(const string& id, const string& nombre,
-                             const string& profesor, int creditos) {
+void Sistema::registrarCurso(const string& id, const string& nombre, const string& profesor, int creditos) {
     // verifica si hay espacio
     if (cantCursos == capCursos) {
         capCursos *= 2;
@@ -74,9 +72,7 @@ void Sistema::inscribirEstudianteEnCurso(const string& idEst, const string& idCu
 }
 
 //Registra las notas de un estudiante
-void Sistema::registrarNotas(const string& idEst,
-                             const string& idCurso,
-                             float n1, float n2, float n3) {
+void Sistema::registrarNotas(const string& idEst, const string& idCurso, float n1, float n2, float n3) {
     (void)idCurso; 
     for (int i = 0; i < cantEst; i++) {
         if (estudiantes[i].obtenerId() == idEst) {
