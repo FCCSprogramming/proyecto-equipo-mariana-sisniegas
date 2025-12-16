@@ -52,8 +52,15 @@ cambiar el tamaño de los arreglos al registrar más estudiantes o cursos.
 ### Registro de estudiante
 ![Registro de estudiante](cap1.png)
 
-### Inscripción de estudiante en curso
+### Inscribir estudiante en curso
 ![Incripción de estudiante](cap2.png)
+
+### Registrar notas del estudiante
+![Registro de notas](cap3.png)
+
+### Generar reportes de estudiantes
+![Reporte de estudiantes](cap4.png)
+
 
 
 
