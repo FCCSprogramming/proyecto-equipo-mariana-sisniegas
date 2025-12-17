@@ -64,7 +64,8 @@ cambiar el tamaño de los arreglos al registrar más estudiantes o cursos.
 ### Generar reportes de estudiantes
 ![Reporte de estudiantes](cap5.png)
 
-
+### Autor: Sisniegas Hinojosa Mariana Krishna
+### 20242254I
 
 
 
